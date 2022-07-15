@@ -32,5 +32,8 @@ El sistema creará un usuario administrador con las siguientes credenciales:
 Los otros cuatro usuarios se crean utilizando la función factory, creando otros 4 usuarios de forma aleatoria
 
 # Nota Importante
-Para acceder al sitio, entrar a la dirección
-[http://localhost/testSA/public/user]
+Para acceder al sitio, entrar a la dirección http://localhost/testsa/public/
+
+
+# Contacto y soporte
+Si tiene alguna duda, puede comunicarse conmigo a hricardoavilac@gmail.com.
