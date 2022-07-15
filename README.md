@@ -11,18 +11,22 @@ Es necesario crear una base de datos en mysql llamada testsa y luego ejecutar la
 
 Renombrar el archivo .env.example a .env de tal forma que se pueda indicar la conexión a la base de datos
 
+```
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=testsa
 DB_USERNAME=root
 DB_PASSWORD=
+```
 
 ### Migraciones
 
 Para ejecutar las migraciones ejecutar el siguiente comando
 
-php artisan migrate:fress --seed
+```
+php artisan migrate:fresh --seed
+```
 
 El sistema creará un usuario administrador con las siguientes credenciales:
 * Nombre:   Administrador
