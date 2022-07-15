@@ -5,7 +5,11 @@ Este es un proyecto de Evaluación para la empresa Singular Agency, únicamente 
 ## Configuración Inicial
 
 ### Base de Datos
-Es necesario crear una base de datos en mysql llamada testsa y luego ejecutar la instrucción
+Es necesario crear una base de datos en mysql llamada testsa y luego configurar el archivo .env y ejecutars migraciones
+
+```
+CREATE DATABASE testsa
+```
 
 ### Archivo de conviguración .env
 
